@@ -1,0 +1,237 @@
+body {
+  font-family: 'Alegreya', serif;
+  background: #40FFE6;
+}
+
+.container {
+  width: 70%;
+  height: auto;
+  margin: auto;
+}
+
+.id-tag {
+  width: 60%;
+  font-size: 1em;
+  color: #E2939E;
+  height: auto;
+  margin: 10% auto;
+  line-height: 1em;
+  border: 2px solid #E2939E;
+  padding: 2px;
+  text-align: center;
+  background: #F0D1D5;
+  cursor: pointer;
+}
+
+.id-tag h2 {
+  text-transform: uppercase;
+}
+
+h2 {
+  line-height: 1em;
+
+}
+
+.id-tag a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #E2939E;
+}
+
+#trivia {
+  margin-top: 0;
+}
+
+#views {
+  display: inline;
+}
+
+#dev-portfolio {
+  width: 60%;
+  font-size: 1.5em;
+  color: #40FFE6;
+  height: auto;
+  margin: 10% auto;
+  line-height: 1em;
+}
+
+#dev-portfolio li {
+  list-style: none;
+  padding: 5px;
+  font-size: 1.25em;
+}
+
+.project-desc {
+  font-size: .5em;
+}
+
+.project-desc li {
+  margin-left: -2.5em;
+}
+
+.projects-list {
+  margin-left: -40px;
+}
+
+#line-runner-master ul li:hover {
+  cursor: pointer;
+}
+
+.project-title {
+  height: auto;
+  width: 5em;
+}
+
+.project-title:hover {
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.dev-port-img {
+  width: 100%;
+  height: auto;
+}
+
+.dev-port-img:hover {
+  cursor: pointer;
+}
+
+#recent-projects:hover {
+  cursor: pointer;
+}
+
+.portait {
+  margin: auto;
+  width: 14em;
+  border-radius: 55%;
+  height: auto;
+  background: url('../img/portrait.jpg');
+
+}
+
+#portrait-frame{
+  height: 20em;
+  width: auto;
+  margin: 0;
+}
+
+
+#writing-portfolio {
+  width: 60%;
+  font-size: 1.5em;
+  color: #064273;
+  height: auto;
+  margin: 10% auto;
+  line-height: 1em;
+}
+
+#writing-portfolio li {
+  list-style: none;
+  padding: 5px;
+  font-size: 1.25em;
+}
+
+#selected-works:hover {
+  cursor: pointer;
+}
+
+#shorts-trigger:hover {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.works-list {
+  margin-top: 5px;
+  margin-left: -40px;
+}
+
+#shorts-list {
+  margin-left: -40px;
+}
+
+#shorts-list a {
+  text-decoration: none;
+  color: #064273;
+}
+
+#shorts-list a:hover {
+  font-weight: 800;
+}
+
+#episodes-trigger:hover {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+#episodes-list {
+  margin-left: -40px;
+}
+
+#episodes-list a {
+  text-decoration: none;
+  color: #064273;
+}
+
+#episodes-list a:hover {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+#about-me {
+  width: 60%;
+  font-size: 1.5em;
+  color: #CFE1B2;
+  height: auto;
+  margin: 10% auto;
+  line-height: 1em;
+}
+
+#about-me h2 {
+  cursor: pointer;
+}
+
+#about-me li {
+  list-style: none;
+  padding: 5px;
+  font-size: 1.25em;
+}
+
+#dev-shortcut:hover, #writing-shortcut:hover {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+#about-me-list {
+  margin-left: -40px;
+}
+
+#about-me-list li {
+  margin: 10px;
+}
+
+#contact-me {
+  width: 60%;
+  font-size: 1.5em;
+  color: white;
+  height: auto;
+  margin: 10% auto;
+  line-height: 1em;
+}
+
+
+#contact-me ul {
+  list-style: none;
+}
+
+#contact-me a {
+  text-decoration: none;
+  color: white;
+}
+
+#contact-me a:hover {
+  cursor: pointer;
+}
+
+#contact-me h2:hover {
+  cursor: pointer;
+}
