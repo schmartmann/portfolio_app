@@ -50,7 +50,7 @@ $("#u-vote-master").on("click", function(){
 $("#recent-projects").on("click", function(){
   devPortfolio.hide()
   views.show()
-  $("body").css('background', "#40FFE6")
+  $("body").css('background', "#349884")
 })
 
 $("#writing-portfolio-link").on("click", function(){
@@ -62,7 +62,7 @@ $("#writing-portfolio-link").on("click", function(){
 $("#selected-works").on("click", function(){
   writingPortfolio.hide()
   views.show()
-  $("body").css('background', "#40FFE6")
+  $("body").css('background', "#349884")
 })
 
 $("#outreach-master").on("click", function(){
@@ -111,7 +111,7 @@ $("#resume-link").on("click", function(){
 $("#about-me-h2").on("click", function(){
   aboutMe.hide()
   views.show()
-  $("body").css('background', "#40FFE6")
+  $("body").css('background', "#349884")
 })
 
 $("#contact-link").on("click", function(){
@@ -123,7 +123,7 @@ $("#contact-link").on("click", function(){
 $("#contact-me-h2").on("click", function(){
   contactMe.hide()
   views.show()
-  $("body").css('background', "#40FFE6")
+  $("body").css('background', "#349884")
 })
 
 })();

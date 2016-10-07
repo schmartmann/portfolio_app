@@ -1,6 +1,6 @@
 body {
   font-family: 'Alegreya', serif;
-  background: #40FFE6;
+  background: #349884;
 }
 
 .container {
@@ -12,14 +12,15 @@ body {
 .id-tag {
   width: 60%;
   font-size: 1em;
-  color: #E2939E;
+  /*color: #E2939E;*/
+  color: black;
   height: auto;
   margin: 10% auto;
   line-height: 1em;
-  border: 2px solid #E2939E;
+  border: 2px solid black;
   padding: 2px;
   text-align: center;
-  background: #F0D1D5;
+  background: #E64E5D;
   cursor: pointer;
 }
 
@@ -35,7 +36,7 @@ h2 {
 .id-tag a {
   text-decoration: none;
   cursor: pointer;
-  color: #E2939E;
+  color: black;
 }
 
 #trivia {
@@ -291,6 +292,6 @@ h2 {
   }
 
   #about-me li {
-    font-size: 1em; 
+    font-size: 1em;
   }
 }
