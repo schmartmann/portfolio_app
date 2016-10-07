@@ -186,7 +186,7 @@ h2 {
   line-height: 1em;
 }
 
-#about-me h2 {
+#about-me h4 {
   cursor: pointer;
 }
 
@@ -196,7 +196,17 @@ h2 {
   font-size: 1.25em;
 }
 
-#dev-shortcut:hover, #writing-shortcut:hover {
+#about-me a {
+  color:#CFE1B2;
+  text-decoration: none;
+}
+#about-me a:hover {
+  color:#CFE1B2;
+}
+
+
+
+#dev-shortcut:hover, #writing-shortcut:hover,  #about-me a:hover{
   cursor: pointer;
   font-weight: 800;
 }
@@ -222,6 +232,10 @@ h2 {
 #contact-me ul {
   list-style: none;
 }
+#contact-me li {
+  height: auto;
+}
+
 
 #contact-me a {
   text-decoration: none;
@@ -232,6 +246,47 @@ h2 {
   cursor: pointer;
 }
 
-#contact-me h2:hover {
+#contact-me h4:hover {
   cursor: pointer;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  transition: zoom 1s;
+}
+
+.icon:hover {
+  zoom: 1.25;
+}
+
+@media (max-width: 580px){
+  .container {
+    zoom: 1.25;
+  }
+
+  #views {
+    zoom: 1.25;
+  }
+
+  .id-tag {
+    width: 100%;
+  }
+
+  #dev-portfolio {
+    zoom:1.25;
+    width:75%;
+    margin: 0 auto;
+  }
+  .project-desc {
+    font-size: .5em;
+  }
+
+  .project-desc li {
+    margin-left: -2.5em;
+  }
+
+  #about-me {
+    width: 100%;
+  }
 }
