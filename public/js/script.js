@@ -75,6 +75,12 @@ $("#nick-master").on("click", function(){
   $("#shorts-list").hide()
 })
 
+$("#erin-master").on("click", function(){
+  console.log("aksdjf;lasdfj;lkdsjl;kasdfjkl;s")
+  $("#erin-desc").toggle()
+  $("#shorts-list").hide()
+})
+
 
 $("#shorts-trigger").on("click", function(){
   $("#shorts-list").toggle()
